@@ -1,0 +1,101 @@
+body {
+	margin: 0px;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1;
+}
+
+.container-logo img {
+	width: 60px;
+	float: left;
+	margin: 10px;
+}
+
+.image-box img {
+    width: 100%;
+    margin: 0px;
+}
+
+.container-menu {
+	float: right;
+	width: 300px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+    color:#90c5db;
+    text-decoration: none;
+}
+
+.container-menu li{
+	display: inline-block;
+	text-decoration: none;
+	text-transform: uppercase;
+	margin-top: 15px;
+	padding-left: 10px;
+}
+
+.zona-buscador{
+	position: relative;
+}
+
+.titular {
+	width: 0 auto;
+	position: absolute;
+	top: 200px;
+	width: 100%;
+}
+
+.modulo {
+	width: 200px;
+	height: 120px;
+	background-color: blue;
+	color: white;
+	float: right;
+	margin: 20px;
+	margin-top: 20
+}
+
+h1 {
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 35px;
+    font-weight: 700;
+    color: white;
+    text-align: center;
+    text-shadow: 1px 1px 2px rgba(10, 26, 0, 1);
+}
+
+h2 {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 18px;
+    font-weight: 700;
+    color: black;
+    text-align: center;
+}
+
+h3 {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 10px;
+    font-weight: 300;
+    color: white;
+    text-transform: uppercase;
+    margin-left: 15px;
+}
+
+p {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 10px;
+    font-weight: 300 italic;
+    color: white;
+    margin: 15px;
+}
