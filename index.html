@@ -8,11 +8,19 @@
 </head>
 
 <body>
-	<header class="header-zone">
-        <div class="container-logo">
-            <img id="logo" src="img/logo.png">
+	<!-- Añado Clearfix -->
+    <header class="clearfix">
+        
+        <!-- Faltaria un div contenedor del logo y slogan -->
+        <div class="container-logo-slogan">
+            <div class="container-logo">
+                <img id="logo" src="img/logo.png">
+            </div>
+            <div class="container-slogan">
+                <h3>Awesom travels agency - We take you everywhere</h3>
+            </div>
         </div>
-    	<nav class="container-menu">
+        <nav class="container-menu">
             <ul class="menu clearfix">
                 <li><a href="#">home</a></li>
                 <li><a href="#">destinations</a></li>
@@ -20,17 +28,21 @@
             </ul>
     	</nav>
     </header>
+
     
     <section>
         <article class="zona-buscador">
-            <div class="image-box">
-    			<img id="header-image" src="img/heading.jpg">
-    		</div>
+            <!-- Elimino img para la imagen y substituyo por background -->
+            <div class="image-box"></div>
     		<div class="titular">
     			<h1>WE TRAVEL EVERYWHERE AND OUR PRICES ROCKS, WHAT ELSE???</h1>
     		</div>
-    		<div class="box-buscador">
-    		</div
+    		<!-- Añado form -->
+            <form>
+                <input type="text" placeholder="Find your super travel">
+                <input class="submit" type="submit" value="Buscar">
+            </form>
+    		
         </article>
     </section>
 
